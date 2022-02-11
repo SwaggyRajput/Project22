@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+}
+.div1{
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+box-sizing: border-box;
+}
+input{
+  text-decoration: none;
+text-align: center;
+margin-top: 10px;
+border: 1px solid red;
+display: block;
+margin-left: 20px;
+
+}
+button{
+  text-decoration: none;
+  margin-left: 75px;
+  margin-top: 10px;
+  background-color: green;
+  color:aqua;
+}
+h1{
+  text-shadow: 2px 2px 5px red;
+}
+h2{
+  text-shadow: 2px 2px 5px green;
+}
+.a{
+  text-align: center;
+  text-shadow: 2px 2px 5px blue;
+}
