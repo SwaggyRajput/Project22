@@ -32,7 +32,7 @@ h1{
 h2{
   text-shadow: 2px 2px 5px green;
 }
-@keyframes movement{
+/* @keyframes movement{
   0%{left: 0%;}
   10%{ left: 10%; }
   20%{left:20%;}
@@ -49,13 +49,13 @@ h2{
   
   
     
-  }
+  } */
 .a{
   /*text-align: center;
   */text-shadow: 2px 2px 5px blue;
   margin-top: 100px;
   background-color: rgb(127, 255, 212,0.8);
-  animation: movement infinite 10s;
+  /* animation: movement infinite 10s; */
   position: relative;
-  -webkit-animation: movement infinite 10s;
+  
 }

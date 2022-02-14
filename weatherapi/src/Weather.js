@@ -28,7 +28,9 @@ setTemp(`Temperature of ${City} is ${data.current.temperature}`)
   return(
         
     <>
-    <h1 className='a'>Temperature Finder</h1>
+    <h1 className='a'><marquee width="100%" direction="right">
+    Temperature Finder
+</marquee></h1>
  <div className='div1'>
  
  <form method='get' action='http://api.weatherstack.com/current?access_key=12274a9ee8f748051b3082badcdcf8f7&query=City'>
